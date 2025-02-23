@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>to : my baby</title>
+
+            <!-- font -->
+            <link rel="stylesheet" type=“text/css” href="tomi.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Jacquard+12&family=Jacquard+24&display=swap" rel="stylesheet">
+
+            <!-- font -->
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Jacquard+12&family=Jacquard+24&family=Jersey+10&display=swap" rel="stylesheet">
+
+            <!-- icon -->
+            <link rel="icon" type="image/png" href="vecteezy_an-8-bit-retro-styled-pixel-art-illustration-of-a-giant-heart_19527058.png">
+
+            <!-- number counter animation -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.7/themes/odometer-theme-default.css" integrity="sha512-kMPqFnKueEwgQFzXLEEl671aHhQqrZLS5IP3HzqdfozaST/EgU+/wkM07JCmXFAt9GO810I//8DBonsJUzGQsQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <style>
+                * {
+                font-family: 'Jacquard 24', cursive;
+                }
+
+                h1{
+                    text-align: center;
+                    color: #35034F;
+                    font-size: 2rem;
+                    margin-bottom: 10px;
+                }
+
+                p {
+                    text-align: center;
+                    font-family: 'Jersey 10';
+                    color: #4f4157;
+                    font-size: 1.6rem;
+                    margin-top: 20px;
+                    margin-bottom: 0;
+                    box-shadow: inset 0 0 0 1000px rgba(236, 229, 229, 0.568);
+                }
+
+
+                body{
+                    margin:0;
+                    height:100vh;
+                    /* background-image: url(paper.jpg); */
+                    background-size: cover;    
+                    background-repeat: no-repeat; 
+                    background-position: center;  
+                    background-color:#ffffff;
+                    box-shadow: inset 0 0 0 1000px rgba(236, 229, 229, 0.568);
+                }
+
+                .container {
+                    margin-top: 200px;
+                    display:grid;
+                    place-items:center;
+                }
+
+                .gallery{
+                    margin-top: 0;
+                    position:relative;
+                    width:300px;
+                    height:200px;
+                    transform-style:preserve-3d;
+                    animation:rotate 35s linear infinite;
+                }
+
+                @keyframes rotate{
+                from{
+                    transform:perspective(1200px) rotateY(0deg);
+                }
+                
+                to{
+                    transform:perspective(1200px) rotateY(360deg);
+                }
+                }
+
+                .gallery span{
+                    position:absolute;
+                    width:100%;
+                    height:100%;
+                    transform-origin:center;
+                    transform-style:preserve-3d;
+                    transform:rotateY(calc(var(--i) * 45deg)) translateZ(380px);
+                }
+
+                .gallery span img{
+                    position:absolute;
+                    width:100%;
+                    height:100%;
+                    object-fit:cover;
+                }
+
+                
+                /* Add a black background color to the top navigation */
+                .topnav {
+                background-color: #ecc8ff;
+                overflow: hidden;
+                text-align: left !important;
+                }
+
+                /* Style the links inside the navigation bar */
+                .topnav a {
+                font-size: 2rem;
+                float: left;
+                color: #8207C5;
+                padding: 14px 16px;
+                text-decoration: none;
+                text-align: left !important;
+                }
+
+                /* Change the color of links on hover */
+                .topnav a:hover {
+                background-color: #ecc8ff;
+                color: #f2f2f2;
+                }
+
+                /* Add a color to the active/current link */
+                .topnav a.active {
+                background-color: #BD4EF9;
+                color: white;
+                }
+
+                
+                button {
+                    all:unset;
+                    cursor: pointer;
+                    border: 2px solid #BD4EF9;
+                    color:#8207C5;
+                    padding-inline: 5px;
+                    font-size: 2rem;
+                    font-family: 'Jersey 10';
+                    box-shadow: 5px 5px 1px 1px #BD4EF9;
+                    position: relative;
+                    transition: transform 0.3s ease; /* Smooth animation */
+                    margin-top: 300px;
+                    text-align: center;
+                }
+
+                button:hover {
+                    transform: translateY(-5px);
+                }
+
+                a {
+                    text-decoration: none;
+                }
+
+
+            </style>
+    </head>
+    <body>
+        <div class="topnav">
+            <a  href="index.html">start</a>
+            <a href="bestConvos.html">convos</a>
+            <a href="datingTime.html">dating</a>
+            <a class="active" href="gallery.html">gallery</a>
+        </div>
+
+        <section>
+            <h1>pookie gallery :o</h1>
+            <p>here's some moments (even though it's hard to choose only a few)</p>
+        </section>
+
+        <div class="container">
+
+            
+            <div class="gallery">
+                <span style="--i:1">
+                  <img src="1.jpg" alt="" />
+                </span>
+                <span style="--i:2">
+                  <img src="2.jpg" alt="" />
+                </span>
+                <span style="--i:3">
+                  <img src="3.jpg" alt="" />
+                </span>
+                <span style="--i:4">
+                  <img src="4.jpg" alt="" />
+                </span>
+                <span style="--i:5">
+                  <img src="5.jpg" alt="" />
+                </span>
+                <span style="--i:6">
+                  <img src="6.jpg" alt="" />
+                </span>
+                <span style="--i:7">
+                  <img src="7.jpg" alt="" />
+                </span>
+                <span style="--i:8">
+                  <img src="8.jpg" alt="" />
+                </span>
+                <span style="--i:9">
+                    <img src="9.jpg" alt="" />
+                </span>
+                <span style="--i:10">
+                    <img src="10.jpg" alt="" />
+                </span>
+                  
+              </div>
+        </div>
+
+        <a href="bdayLetter.html">
+            <button>secret button</button>
+        </a>
+        
+    </body>
+</html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>to : my baby</title>
+
+        <!-- font -->
+        <link rel="stylesheet" type=“text/css” href="tomi.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Jacquard+12&family=Jacquard+24&display=swap" rel="stylesheet">
+
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Geist:wght@100..900&family=Jacquard+12&family=Jacquard+24&family=Jersey+10&display=swap" rel="stylesheet">
+
+        <!-- icon -->
+        <link rel="icon" type="image/png" href="vecteezy_an-8-bit-retro-styled-pixel-art-illustration-of-a-giant-heart_19527058.png">
+
+        <!-- number counter animation -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.7/themes/odometer-theme-default.css" integrity="sha512-kMPqFnKueEwgQFzXLEEl671aHhQqrZLS5IP3HzqdfozaST/EgU+/wkM07JCmXFAt9GO810I//8DBonsJUzGQsQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <style>
+            
+            * {
+                text-align: center; 
+                font-family: 'Jacquard 24', cursive;
+            }
+
+            body {
+                /* background-image: url(paper.jpg); */
+                background-size: cover;    
+                background-repeat: no-repeat; 
+                background-position: center;  
+                box-shadow: inset 0 0 0 1000px rgba(236, 229, 229, 0.568);
+            }
+
+            h1{
+                color: #35034F;
+                font-size: 2rem;
+            }
+
+            p {
+                font-family: 'Jersey 10';
+                color: #4f4157;
+                font-size: 1.6rem;
+                padding-bottom: 10px;
+            }
+
+            p strong {
+                color: #8207C5;
+            }
+
+            img {
+                height: 300px;
+                box-shadow: 12px 12px 2px 1px #BD4EF9;
+            }
+
+            button {
+                margin-top: 10px;
+
+            }
+
+            .stats-container{
+                display: grid;
+                gap: 24px;
+                grid-template-columns: 1fr 1fr 1fr;
+                margin:30px auto;
+                max-width: 1000px;
+                padding-inline: 16px;
+            }
+
+            .stats-container .stat {
+               background-color: #35034F; 
+               padding: 24px;
+               text-align: center;
+               color: beige;
+               font-size: 1.8rem;
+
+            }
+
+            .stats-container .stat .odometer {
+                font-size: 50px;
+                font-weight: bold;
+
+            }
+
+            @media (max-width: 700px) {
+                .stats-container {
+                    grid-template-columns: 1fr;
+                }
+            }
+
+            
+            button {
+                all:unset;
+                cursor: pointer;
+                border: 2px solid #BD4EF9;
+                color:#8207C5;
+                padding-inline: 5px;
+                font-size: 2rem;
+                font-family: 'Jersey 10';
+                box-shadow: 5px 5px 1px 1px #BD4EF9;
+                position: relative;
+                transition: transform 0.3s ease; /* Smooth animation */
+            }
+
+            button:hover {
+                transform: translateY(-5px);
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            
+            /* Add a black background color to the top navigation */
+            .topnav {
+                
+                background-color: #ecc8ff;
+                overflow: hidden;
+                text-align: left !important;
+            }
+
+            /* Style the links inside the navigation bar */
+            .topnav a {
+                
+                font-size: 2rem;
+                float: left;
+                color: #8207C5;
+                
+                padding: 14px 16px;
+                text-decoration: none;
+                
+            }
+
+            /* Change the color of links on hover */
+            .topnav a:hover {
+                background-color: #ecc8ff;
+                color: #f2f2f2;
+            }
+
+            /* Add a color to the active/current link */
+            .topnav a.active {
+                background-color: #BD4EF9;
+                color: white;
+            }
+        </style>
+</head>
+<body>
+    <div class="topnav">
+        <a  href="index.html">start</a>
+        <a href="bestConvos.html">convos</a>
+        <a class="active" href="datingTime.html">dating</a>
+        <a  href="gallery.html">gallery</a>
+    </div>
+
+    <p style="margin-top: 120px;">we've been dating for abooooout</p>
+        </section>
+        <div class="stats-container">
+            <div class="stat">
+                <div class="years-odometer odometer">0</div>
+                <div class="type">Year</div>
+            </div>
+
+            <div class="stat">
+                <div class="months-odometer odometer">0</div>
+                <div class="type">Months</div>
+            </div>
+
+            <div class="stat">
+                <div class="days-odometer odometer">0</div>
+                <div class="type">Days</div>
+            </div>
+        </div>
+
+        <p style="font-size: 1rem; color: #8207C5;">wow, thats a lot! :3</p>
+
+        <p style="color: #BD4EF9;">OUR RELATIONSHIP IS BABY AGE!</p>
+        <p> that is absolutely awesome, isn't it? :p <br> let's go look at some of our silliest conversations over these <strong>(almost)</strong> two years!</p>
+
+        <a href="bestConvos.html">
+            <button> ok! </button>
+        </a>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/odometer.js/0.4.7/odometer.min.js" integrity="sha512-v3fZyWIk7kh9yGNQZf1SnSjIxjAKsYbg6UQ+B+QxAZqJQLrN3jMjrdNwcxV6tis6S0s1xyVDZrDz9UoRLfRpWw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <script>
+            const createOdometer = (el, value) => {
+                if (!el) return; // Ensure element exists before initializing
+
+                const odometer = new Odometer({
+                    el: el,
+                    value: 0, // Start from 0
+                });
+
+                odometer.update(value);
+            };
+
+            window.onload = function () {
+                const yearsOdometer = document.querySelector(".years-odometer");
+                createOdometer(yearsOdometer, 1);
+
+                const monthsOdometer = document.querySelector(".months-odometer");
+                createOdometer(monthsOdometer, 10);
+
+                const daysOdometer = document.querySelector(".days-odometer");
+                createOdometer(daysOdometer, 15);
+            };
+        </script>
+</body>
+</html>
